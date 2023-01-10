@@ -1,0 +1,13 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Query {
+  helloWorld: String!
+
+  """This query return a random number"""
+  RandomNumber: Float!
+
+  """This query return a random number from zero to Argument 'TO' """
+  RandomNumberZeroTo(to: Int): Int!
+}
