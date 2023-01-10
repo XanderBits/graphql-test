@@ -11,3 +11,8 @@ type Query {
   """This query return a random number from zero to Argument 'TO' """
   RandomNumberZeroTo(to: Int): Int!
 }
+
+type Mutation {
+  addFruit(fruit: String!): [String!]!
+  RemoveFruit(fruit: String!): [String!]!
+}
